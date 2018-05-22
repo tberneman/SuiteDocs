@@ -184,6 +184,21 @@ See link:../../../blog/scheduler-jobs/[Scheduler Jobs in SuiteCRM in Linux - the
 
 == Activity Streams
 
+By default the Activity Stream displays recent updates for the Opportunities, Contacts, Leads and Cases modules. 
+
+The Activity Stream admin panel allows you to configure what is displayed on the activity feed and which features are available to users.
+
+image:SystemActivityStreams.png[title = "Configure Activity Stream"]
+
+[cols = "40, 60", frame = "none", grid = "none"]
+|===
+|*Enable MyActivity Stream Dashlet:*|Enables/disables the Activity Stream dashlet for all users
+|*Activate Feeds For:*|Select the modules to display activity for
+|*Activate User Feed:*|Allows users to enter messages in the status update field for broadcast to all users
+|===
+
+Please see the link:../../../../user/introduction/user-interface#_activity_streams[user interface guide] for further information on how to use the Activity Stream.
+
 == OAuth Keys
 
 
