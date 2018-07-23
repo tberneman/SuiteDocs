@@ -66,7 +66,7 @@ Ensure that the if statement for the valid entry point has been moved to
 
 [source, php]
 if (!defined('sugarEntry') || !sugarEntry) {
-   die('Not A Valid Entry Point');
+    die('Not A Valid Entry Point');
 }
 
 
@@ -162,9 +162,9 @@ indentation level as the line contain the array declaration.
 .Example
 [source,php]
 $sampleArray = array(
-   1, 2, 3, 'Zend', 'Studio', 
-   $a, $b, $c, 
-   56.44, $d, 500, 
+    1, 2, 3, 'Zend', 'Studio', 
+    $a, $b, $c, 
+    56.44, $d, 500, 
 );  
 
 When declaring associative arrays the initial array item may
@@ -179,8 +179,8 @@ that they align.
 .Example
 [source, php]
 $sampleArray = array(
-   'firstKey'  => 'firstValue', 
-   'secondKey' => 'secondValue', 
+    'firstKey'  => 'firstValue', 
+    'secondKey' => 'secondValue', 
 ); 
 
 == Brace Style
@@ -194,7 +194,7 @@ braces to provide code clarity.
 if (condition) do_stuff();
 
 if (condition)
-   do_stuff(); 
+    do_stuff(); 
 ----
 
 
@@ -203,17 +203,17 @@ if (condition)
 ----
 if (condition) 
 {
-   do_stuff(); 
+    do_stuff(); 
 }
 
 if ($a != 2) {
-   $a = 2; 
+    $a = 2; 
 } 
 elseif ($a == 3) {
-   $a = 4; 
+    $a = 4; 
 } 
 else {
-   $a = 7; 
+    $a = 7; 
 } 
 ----
 
@@ -225,10 +225,10 @@ line as the declaration and the exiting bracket on a line of its own.
 ----
 class ThisClass 
 {     
-   public function newMethod()
-   {
+    public function newMethod()
+    {
 
-   } 
+    } 
 } 
 
 function newFunction() 
@@ -272,7 +272,7 @@ going on in a reasonable amount of time.
 
 public function myMethod($variable) 
 {
-   // Do something here
+    // Do something here
 } 
 ----
 
@@ -285,8 +285,8 @@ constructor `__construct`, but only where a constructor is required.
 [source, php]
 function __construct() 
 {
-   // do child class specific code here
-   parent::__construct();
+    // do child class specific code here
+    parent::__construct();
 } 
 
 {{% notice warning %}}
